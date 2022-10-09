@@ -89,4 +89,4 @@ with tqdm.tqdm(total=total_epochs) as pbar_e:
             total_test_accuracy = -1
 
         pbar_e.update(1)
-        logger.step()
+        logger.step()     
